@@ -1,28 +1,34 @@
-# Nand2Tetris Project 4 – Machine Language
+# Nand2Tetris Project 3 – Sequential Logic
 
 This project was completed as part of my **Computer Organization (COMPORG)** course using the Nand2Tetris curriculum.
 
 ## Overview
 
-This project introduces programming in the **Hack machine language**, a low-level assembly language designed for the Hack computer platform.
+This project introduces **sequential logic circuits**, which maintain state using clocked components. These components allow computers to store and manipulate data over time.
 
-Programs are written directly using Hack assembly instructions.
+## Implemented Chips
 
-## Implemented Programs
+The following sequential components were implemented:
 
-The following programs were implemented:
-
-- **Mult.asm** – multiplies two numbers stored in memory.
-- **Fill.asm** – fills the screen when a key is pressed and clears it when no key is pressed.
+- Bit
+- Register
+- RAM8
+- RAM64
+- RAM512
+- RAM4K
+- RAM16K
+- Program Counter (PC)
 
 ## Description
 
-These programs demonstrate how low-level instructions interact with memory, registers, and I/O devices within the Hack computer system.
+These components form the memory subsystem of the Hack computer architecture. They allow the computer to store data, manage memory hierarchies, and track program execution.
+
+All chips were implemented using HDL and tested using `.tst` scripts with `.cmp` comparison files.
 
 ## Technologies
 
-- Hack Assembly Language
-- Nand2Tetris CPU Emulator
+- Hardware Description Language (HDL)
+- Nand2Tetris Hardware Simulator
 
 ## Course
 
