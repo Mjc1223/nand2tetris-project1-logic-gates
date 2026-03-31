@@ -1,4 +1,14 @@
 # Computer Organization (COMPORG) Projects – Nand2Tetris
+## Projects
+
+| Project | Description |
+|--------|-------------|
+| [Project 1 – Logic Gates](project1-logic-gates) | Fundamental logic gates implemented in HDL |
+| [Project 2 – Boolean Arithmetic](project2-boolean-arithmetic) | Arithmetic circuits including the ALU |
+| [Project 3 – Sequential Logic](project3-sequential-logic) | Memory components such as registers and RAM |
+| [Project 4 – Machine Language](project4-machine-language) | Hack assembly programs demonstrating control flow |
+| [Project 5 – Assembly Programs](project5-computer-architecture) | Programs interacting with screen and keyboard memory |
+| [Project 6 – Assembler](project6-assembler) | Assembler translating Hack assembly into machine code |
 Computer architecture projects building a computer from logic gates to assembly programming.
 
 This repository contains projects completed for my **Computer Organization (COMPORG)** course based on the Nand2Tetris curriculum (*The Elements of Computing Systems*).
